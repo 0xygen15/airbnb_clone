@@ -3,7 +3,7 @@ from core import models as core_models
 # Create your models here.
 
 
-class Lists(core_models.TimeStampedModel):
+class List(core_models.TimeStampedModel):
 
     """ Lists Model Definition """
 

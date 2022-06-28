@@ -5,7 +5,7 @@ from django.db import models
 
 class TimeStampedModel(models.Model):
 
-    """ TIME ATAMPED MODEL """
+    """TIME STAMPED MODEL"""
 
     created = models.DateField(auto_now_add=True)
     updated = models.DateField(auto_now=True)
